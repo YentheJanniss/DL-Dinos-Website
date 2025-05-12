@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 api/model/dino_model.keras filter=lfs diff=lfs merge=lfs -text
+api/dino_model.keras filter=lfs diff=lfs merge=lfs -text
