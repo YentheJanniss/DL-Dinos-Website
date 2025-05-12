@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend && npm install && npm run build",
+  "buildCommand": "cd api && python3 -m venv venv && . venv/bin/activate && pip3.9.15 install -r requirements.txt && cd ../frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "rewrites": [
     {
